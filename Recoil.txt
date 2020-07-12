@@ -1,0 +1,90 @@
+local library = loadstring(game:HttpGet(('https://pastebin.com/raw/FsJak6AT')))() -- load the library
+
+local w = library:CreateWindow("Atom Hub!") -- GUI NAME
+
+local a = w:CreateFolder("Unlocks")
+
+
+
+a:Button("Characters",function()
+game:GetService("ReplicatedStorage").Characters.Radical.Rank.Value = 0
+game:GetService("ReplicatedStorage").Characters.SpecOps.Rank.Value = 0
+game:GetService("ReplicatedStorage").Characters.Hazmat.Rank.Value = 0
+game:GetService("ReplicatedStorage").Characters["Hazmat White"].Rank.Value = 0 
+game:GetService("ReplicatedStorage").Characters["Hazmat Blue"].Rank.Value = 0 
+game:GetService("ReplicatedStorage").Characters["Ghille Snow"].Rank.Value = 0 
+game:GetService("ReplicatedStorage").Characters["Ghille Jungle"].Rank.Value = 0 
+game:GetService("ReplicatedStorage").Characters["Ghille Arid"].Rank.Value = 0 
+game:GetService("ReplicatedStorage").Characters.Mercenary.Rank.Value = 0 
+game:GetService("ReplicatedStorage").Characters["Ghille Snow"].Rank.Value = 0 
+game:GetService("ReplicatedStorage").Characters.Tank.Rank.Value = 0 
+game:GetService("ReplicatedStorage").Characters.EOD.Rank.Value = 0 
+game:GetService("ReplicatedStorage").Characters.Nuclear.Rank.Value = 0 
+end)
+
+a:Button("Weapons",function()
+game:GetService("ReplicatedStorage").Weapons.R74K.Rank.Value = 0
+game:GetService("ReplicatedStorage").Weapons.AEK97.Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons.RPG7.Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons.MT4.Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons["GI-9A"].Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons["K2 Scythe"].Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons.RX50.Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons.SG35.Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons["RK Buffalo"].Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons.M16A4.Rank.Value = 0
+game:GetService("ReplicatedStorage").Weapons.Zoll.Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons["M300 Interjection"].Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons.FAL.Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons.AUGA3.Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons["ZAS-12"].Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons["SPZ-12"].Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons.MP5A3.Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons["SCAR-H"].Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons.X26.Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons.G36C.Rank.Value = 0
+game:GetService("ReplicatedStorage").Weapons["SCAR-L"].Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons.RVD.Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons.PKM.Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons.SL4TH.Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons.DR7.Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons["R-57"].Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons.DE44.Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons.CQMG.Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons.DR19.Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons.Groza.Rank.Value = 0
+game:GetService("ReplicatedStorage").Weapons.MK14.Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons["AX Spyder"].Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons.AWX.Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons.R74U.Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons.G4TR.Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons["KS-23"].Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons.H4WK.Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons["AX-20"].Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons["RKB-1"].Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons.MPX.Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons.R4PTR.Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons[1216].Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons.FNC.Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons.HK21.Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons["KDR-91"].Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons.CL34.Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons["OV-UN"].Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons.M14.Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons.MPL.Rank.Value = 0 
+game:GetService("ReplicatedStorage").Weapons.I37.Rank.Value = 0
+game:GetService("ReplicatedStorage").Weapons.RAK63.Rank.Value = 0
+game:GetService("ReplicatedStorage").Weapons.RX38.Rank.Value = 0
+game:GetService("ReplicatedStorage").Weapons.VIP3R.Rank.Value = 0
+end)
+
+
+
+
+
+
+
+
+local c = w:CreateFolder("Credits")
+c:Label("TheRealJMz: Scripts",Color3.fromRGB(38,38,38),Color3.fromRGB(0,216,111))
+c:Label("Wally: UI",Color3.fromRGB(38,38,38),Color3.fromRGB(0,216,111))
